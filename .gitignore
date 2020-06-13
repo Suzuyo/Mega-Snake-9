@@ -1,6 +1,8 @@
 
 # Created by https://www.gitignore.io/api/java
 
+/target
+
 ### Java ###
 # Compiled class file
 *.class
