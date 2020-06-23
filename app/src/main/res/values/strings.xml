@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mege Snake 9</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="menu_play">Play</string>
+    <string name="menu_scores">Scores</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu">Menu</string>
+    <string name="play_time">Time : %1$s</string>
+    <string name="play_snake_length">Snake length : %1$d</string>
+    <string name="scores_lp">lp.</string>
+    <string name="scores_snake_length">Snake length</string>
+    <string name="scores_time">Time</string>
+    <string name="scores_first">1</string>
+    <string name="scores_second">2</string>
+    <string name="scores_third">3</string>
+    <string name="finish_game_time">Time</string>
+    <string name="finish_game_snake_length">Snake length</string>
+    <string name="game_over">Game over</string>
+</resources>

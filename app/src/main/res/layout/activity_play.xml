@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.suzuyo.snake.PlayActivity" android:background="#51B529" android:id="@+id/rootLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:background="#73C646" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/constraintLayout" android:paddingBottom="10dp" android:paddingTop="10dp"
+            android:paddingLeft="10dp" android:paddingRight="10dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/snakeLengthView"
+                android:textColor="@android:color/white" android:fontFamily="sans-serif-condensed-medium"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/timeView"
+                android:textColor="@android:color/white" android:fontFamily="sans-serif-condensed-medium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.suzuyo.snake.BoardView
+            android:layout_width="0dp"
+            android:layout_height="0dp" app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:background="#B1F897" android:id="@+id/boardView"
+            android:layout_marginStart="10dp" android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp">
+    </com.suzuyo.snake.BoardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
